@@ -1,0 +1,16 @@
+{
+  "name": "{{ name }}",
+  "version": "1.0.0",
+  "description": "{{ description }}",
+  "main": "index.js",
+  "keywords": [],
+  "author": "{{ author }}",
+  "license": "ISC",
+  "bin": {
+    "abc": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "download-git-repo": "^3.0.2"
+  }
+}
